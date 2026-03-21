@@ -1,5 +1,8 @@
 # Oracle Linux 9 OBI
 
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-yellow?style=flat-square&logo=buy-me-a-coffee)](https://buymeacoffee.com/bowang168)
+[![Sponsor](https://img.shields.io/badge/GitHub%20Sponsors-sponsor-ea4aaa?style=flat-square&logo=github-sponsors)](https://github.com/sponsors/bowang168)
+
 ## Table of Contents
 
 - [Download Full OS image](#Download-Full-OS-image)
@@ -101,3 +104,8 @@ sudo cp -R ~/Downloads/oracle_fonts/Fonts/REDACTED_FONT /usr/share/fonts/
 sudo fc-cache -f /usr/share/fonts
 
 ```
+
+## Support This Project
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-yellow?style=flat-square&logo=buy-me-a-coffee)](https://buymeacoffee.com/bowang168)
+[![Sponsor](https://img.shields.io/badge/GitHub%20Sponsors-sponsor-ea4aaa?style=flat-square&logo=github-sponsors)](https://github.com/sponsors/bowang168)
