@@ -29,7 +29,7 @@ sudo dd if=obi-ng-kickstart-OL9-x86_64.iso of=/dev/disk4 bs=512k
 
 ### OBI Setup
 
-[https://[REDACTED]/docs/oracle-linux-workstation/](https://[REDACTED]/docs/oracle-linux-workstation/)
+[https://linux-git.examplecorp.com/docs/oracle-linux-workstation/](https://linux-git.examplecorp.com/docs/oracle-linux-workstation/)
 
 ### Encrypt `/home` and `/` with `luks1` version
 
@@ -95,13 +95,6 @@ dnf install gcc make iotop xclip wmctrl powerline-fonts xdotool zsh ltrace \
 dnf remove fprintd fprintd-pam audit rpm-plugin-audit avahi selinux-policy \
     elinux-policy-targeted setroubleshoot setroubleshoot-plugins setroubleshoot-server \
     rpm-plugin-selinux flatpak-selinux evolution-* PackageKit cockpit-packagekit cups
-
-# Installing the Oracle Redwood Branding Fonts and InputMono Fonts
-# Download from: https://[REDACTED]:11443/otmm/ux-html/?p=collection/url_selection/40093030
-# Download from: https://input.djr.com/download/
-
-sudo cp -R ~/Downloads/oracle_fonts/Fonts/REDACTED_FONT /usr/share/fonts/
-sudo fc-cache -f /usr/share/fonts
 
 ```
 
